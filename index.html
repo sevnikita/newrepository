@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>popup_plugin</title>
+  <link rel='stylesheet' href='css/popup_style.css'>
+</head>
+<body>
+
+<a href="#modal-contact" data-video='' data-srcvideo=''>Open text</a>
+<a href="#modal-contact" data-video='vimeo' data-srcvideo='193236599'>Open vimeo</a>
+<a href="#modal-contact" data-video='youtube' data-srcvideo='NL1tbgaiwlM'>Open youtube</a>
+
+<!-- HIDDEN ELEMENTS -->
+  <div id="modal-contact" class="modal-overlay">
+  <div class="modal-content">
+    <div class="close-button">
+      <div class="one"></div>
+      <div class="two"></div>
+    </div>
+    <!-- content -->
+    <div id="video-popup"></div>
+    <!-- end content -->
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src='js/popup_script.js'></script>
+
+
+</div>
+</body>
+</html>
+
